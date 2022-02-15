@@ -11,8 +11,8 @@
             justify-content: space-between;
             padding-left: 2vw;
             padding-right: 2vw;
-            margin-top: 5vh;
-            margin-bottom: 5vh;
+            margin-top: 2vh;
+            margin-bottom: 1vh;
         }
         #b{
             display: flex;
@@ -49,25 +49,63 @@
         }
         #c button{
             border: 2px solid blue;
+            border-radius: 4px;
             height: 6.5vh;
             width: 6vw;
         }
         .brow{
             display: flex;
-            height: 15vh;
+            height: 5vh;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
         }
         .buttons{
             display: flex;
             flex-direction: column;
-            height: 80vh;
-            width: 30vw;
+            height: 90vh;
+            width: 18vw;
             overflow-x: scroll;
+        }
+        .brow img{
+            padding-left: 1.5vw;
+            padding-right: 1.5vw;
+        }
+        .mrow {
+            height: 5vh;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
+            padding-left: 1.5vw;
+        }
+        
+        .lrow {
+            height: 15vh;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
+            padding-left: 1.5vw;
+        }
+        #lr{
+            display: flex;
+        }
+        .boxes{
+            width: 81vw;
+        }
+        .keys{
+            display: flex;
+            justify-content: space-around;
+        }
+        .key{
+            border: 1px solid rgb(187, 184, 184);
+            background-color: rgb(230, 227, 240);
+            border-radius: 50px;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 3px;
+            padding-bottom: 3px;
         }
     </style>
 </head>
 <body>
     <div class="navbar">
-
         <div id="a">
             <img src="logo.jpg" width="110px" height="25px" alt="">
         </div>
@@ -93,130 +131,153 @@
             </div>
         </div>
     </div>
-
-    <div class="buttons">
-        
-        <div  class="brow">
-            <img src="home.jpg" height="20px" width="20px" alt="">
-            <div>Home</div> 
-        </div>
-        <div  class="brow">
-            <img src="explolar.jpg" height="20px" width="20px" alt="">
-            <div>Explore</div>
-        </div>
-        <div class="brow">
-            <img src="subs.jpg" height="20px" width="20px" alt="">
-            <p>Subscriptions</p>
-        </div>
-        <div class="brow">
-            <img src="library.jpg" height="20px" width="20px" alt="">
-            <p>Library</p>
-        </div>
-        <div class="brow">
-            <img src="history.jpg" height="20px" width="20px" alt="">
-            <p>History</p>
-        </div>
-        <div class="brow">
-            <img src="yvideo.jpg" height="20px" width="20px" alt="">
-            <p>Your videos</p>
-        </div>
-        <div class="brow">
-            <img src="watch_later.jpg" height="20px" width="20px" alt="">
-            <p>Watch later</p>
-        </div>
-        <div class="brow">
-            <img src="like.jpg" height="20px" width="20px" alt="">
-            <div>Like videos</div>
-        </div>
-        <div class="brow">
-            <img src="Arrow.jpg" height="15px" width="15px" alt="">
-            <div>Show more</div>
-        </div>
-
-        <div class="mrow">
-            <div>SUBSCRIPTIONS</div>
-        </div>
-        <div class="brow">
-            <img src="pepcoding.jpg" height="20px" width="20px" alt="">
-            <div>Youtube Chn1</div>
-        </div>
-        <div class="brow">
-            <img src="jonny.jpg" height="20px" width="20px" alt="">
-            <div>Youtube Chn2</div>
-        </div>
-        <div class="brow">
-            <img src="ujjwal.jpg" height="20px" width="20px" alt="">
-            <div>Youtube Chn3</div>
-        </div>
-        <div class="brow">
-            <img src="spower.jpg" height="20px" width="20px" alt="">
-            <div>Youtube Chn4</div>
-        </div>
-        <div class="brow">
-            <img src="Arrow.jpg" height="15px" width="15px" alt="">
-            <div>Show more</div>
-        </div>
-
-
-        <div class="mrow">
-            <div>MORE FROM YPUTUBE</div>
-        </div>
-        <div class="brow">
-            <img src="ypremium.jpg" height="20px" width="25px" alt="">
-            <div>YouTube Premium</div>
-        </div>
-        <div class="brow">
-            <img src="movies.jpg" height="20px" width="20px" alt="">
-            <div>Movies</div>
-        </div>
-        <div class="brow">
-            <img src="gaming.jpg" height="20px" width="25px" alt="">
-            <div>Gaming</div>
-        </div>
-        <div class="brow">
-            <img src="live.jpg" height="20px" width="25px" alt="">
-            <div>Live</div>
-        </div>
-        <div class="brow">
-            <img src="fasion.jpg" height="25px" width="25px" alt="">
-            <div>Fasion & Beauty</div>
-        </div>
-        <div class="brow">
-            <img src="learning.jpg" height="23px" width="20px" alt="">
-            <div>Learning</div>
-        </div>
-        <div class="brow">
-            <img src="sports.jpg" height="23px" width="20px" alt="">
-            <div>Sports</div>
-        </div>
-        <div class="brow">
-            <img src="setting.jpg" height="20px" width="20px" alt="">
-            <div>Setting</div>
-        </div>
-        <div class="brow">
-            <img src="report.jpg" height="20px" width="20px" alt="">
-            <div>Report history</div>
-        </div>
-        <div class="brow">
-            <img src="help.jpg" height="20px" width="20px" alt="">
-            <div>Help</div>
+    <div id="lr">
+        <div class="buttons">
             
-        </div>
-        <div class="brow">
-            <img src="feedback.jpg" height="23px" width="20px" alt="">
-            <div>Send Feedback</div>
-        </div>
-        <div class="irow">
-            <div>About Pewss Copyright Contact us Creators Advertise Developers.</div>
-        </div>
-        <div class="irow">
-            <div>Terms Privacy Policy & Safery How YouTube works Test new features.</div>
-        </div>
-        <div class="brow">
-            <div> &copy; 2022 Google LLC.</div>
-        </div>
+            <div  class="brow">
+                <img src="home.jpg" height="20px" width="20px" alt="">
+                <div>Home</div> 
+            </div>
+            <div  class="brow">
+                <img src="explolar.jpg" height="20px" width="20px" alt="">
+                <div>Explore</div>
+            </div>
+            <div class="brow">
+                <img src="subs.jpg" height="20px" width="20px" alt="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="line" ><hr size="1" ></div>
+            <div class="brow">
+                <img src="library.jpg" height="20px" width="20px" alt="">
+                <div>Library</div>
+            </div>
+            <div class="brow">
+                <img src="history.jpg" height="20px" width="20px" alt="">
+                <div>History</div>
+            </div>
+            <div class="brow">
+                <img src="yvideo.jpg" height="20px" width="20px" alt="">
+                <div>Your videos</div>
+            </div>
+            <div class="brow">
+                <img src="watch_later.jpg" height="20px" width="20px" alt="">
+                <div>Watch later</div>
+            </div>
+            <div class="brow">
+                <img src="like.jpg" height="20px" width="20px" alt="">
+                <div>Like videos</div>
+            </div>
+            <div class="brow">
+                <img src="Arrow.jpg" height="15px" width="15px" alt="">
+                <div>Show more</div>
+            </div>
+            <div class="line" ><hr size="1" ></div>
+
+            <div class="mrow">
+                <div>SUBSCRIPTIONS</div>
+            </div>
+            <div class="brow">
+                <img src="pepcoding.jpg" height="20px" width="20px" alt="">
+                <div>Youtube Chn1</div>
+            </div>
+            <div class="brow">
+                <img src="jonny.jpg" height="20px" width="20px" alt="">
+                <div>Youtube Chn2</div>
+            </div>
+            <div class="brow">
+                <img src="ujjwal.jpg" height="20px" width="20px" alt="">
+                <div>Youtube Chn3</div>
+            </div>
+            <div class="brow">
+                <img src="spower.jpg" height="20px" width="20px" alt="">
+                <div>Youtube Chn4</div>
+            </div>
+            <div class="brow">
+                <img src="Arrow.jpg" height="15px" width="15px" alt="">
+                <div>Show more</div>
+            </div>
+            <div class="line" ><hr size="1" ></div>
+
+
+            <div class="mrow">
+                <div>MORE FROM YOUTUBE</div>
+            </div>
+            <div class="brow">
+                <img src="ypremium.jpg" height="20px" width="25px" alt="">
+                <div>YouTube Premium</div>
+            </div>
+            <div class="brow">
+                <img src="movies.jpg" height="20px" width="20px" alt="">
+                <div>Movies</div>
+            </div>
+            <div class="brow">
+                <img src="gaming.jpg" height="20px" width="25px" alt="">
+                <div>Gaming</div>
+            </div>
+            <div class="brow">
+                <img src="live.jpg" height="20px" width="25px" alt="">
+                <div>Live</div>
+            </div>
+            <div class="brow">
+                <img src="fasion.jpg" height="25px" width="25px" alt="">
+                <div>Fasion & Beauty</div>
+            </div>
+            <div class="brow">
+                <img src="learning.jpg" height="23px" width="20px" alt="">
+                <div>Learning</div>
+            </div>
+            <div class="brow">
+                <img src="sports.jpg" height="23px" width="20px" alt="">
+                <div>Sports</div>
+            </div>
+            <div class="line" ><hr size="1" ></div>
+            <div class="brow">
+                <img src="setting.jpg" height="20px" width="20px" alt="">
+                <div>Setting</div>
+            </div>
+            <div class="brow">
+                <img src="report.jpg" height="20px" width="20px" alt="">
+                <div>Report history</div>
+            </div>
+            <div class="brow">
+                <img src="help.jpg" height="20px" width="20px" alt="">
+                <div>Help</div>
+                
+            </div>
+            <div class="brow">
+                <img src="feedback.jpg" height="23px" width="20px" alt="">
+                <div>Send Feedback</div>
+            </div>
+            <div class="line" ><hr size="1" ></div>
+            <div class="lrow">
+                <div>About Pewss Copyright Contact us Creators Advertise Developers.</div>
+            </div>
+            <div class="lrow">
+                <div>Terms Privacy Policy & Safery How YouTube works Test new features.</div>
+            </div>
+            <div class="lrow">
+                <div> &copy; 2022 Google LLC.</div>
+            </div>
+        </div> 
         
-        
+        <div class="boxes">
+            <div class="line">  <hr size="1" ></div>
+            <div class="keys">
+                <div class="key">All</div>
+                <div class="key">Live</div>
+                <div class="key">Learning</div>
+                <div class="key">Data Structures</div>
+                <div class="key">Music</div>
+                <div class="key">Sports</div>
+                <div class="key">Movies</div>
+                <div class="key">Comede</div>
+                <div class="key">Recently Uploaded</div>
+                <div class="key">Watched</div>
+                <div class="key">Mixes</div>
+            </div>
+            <div class="line">  <hr size="1" ></div>
+        </div>
+
     </div>
 </body>
 </html>
